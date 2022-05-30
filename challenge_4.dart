@@ -4,10 +4,7 @@ void main() {
    */
   int index = 5;
 
-  for ( var i = 1; i <= index; i++) {
-    for (var n = 1; n < ; i++) {
-      
-    }
-    
+  for (var i = 1; i <= index; i++) {
+    for (var n = 1; n < i; i++) {}
   }
 }
