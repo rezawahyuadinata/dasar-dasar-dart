@@ -72,18 +72,17 @@ class RekeningBank {
   RekeningBank({this.namaPemilik, this.namaBank, this.saldo});
   RekeningBank.Uwu({this.namaPemilik, this.namaBank, this.saldo});
 
+  /*
+    arrow function adalah sebuah simbol yang memiliki nilai == return pada sebuah method
+
+    contoh arrow function (=>)
+   **/
   //method
-  cekSaldo() {
-    print('cek saldo : $saldo');
-  }
+  cekSaldo() => print('cek saldo : $saldo');
 
   //method
-  transfer() {
-    print('transfer');
-  }
+  transfer() => print('transfer');
 
   //method
-  ambilSaldo() {
-    print('ambil saldo');
-  }
+  ambilSaldo() => print('ambil saldo');
 }
